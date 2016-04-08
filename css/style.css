@@ -1,7 +1,7 @@
 body {
 	padding: 0px;
 	color: #97743a;
-	background: url(../images/bg.jpg);
+	background: url(../images/bg.jpg) no-repeat top ;
 }
 div.v-center>div.container>div>div {
 	height: 60px;
@@ -47,10 +47,10 @@ div.v-center>div.container>div>div {
 ul#part>li {
 	display: inline;
 	margin: 0px 10px;
-	font: 16px 'Ubuntu Light';
 }
 ul#part>li>a, h4 {
 	color: #C79A4B;
+	font: 16px 'Ubuntu';
 }
 ul#part>li>a:hover {
 	text-decoration: none;
@@ -100,10 +100,6 @@ ul#part>li>a:hover {
 	text-decoration: underline;
 }
 
-#about::-webkit-scrollbar {
-	width: 5px;
-	background: rgba(0,0,0, 0);
-}
 img[alt="myself"] {
 	margin: 33px 20px;
 	height:200px;
@@ -111,8 +107,8 @@ img[alt="myself"] {
 	border-radius: 50%;
 	box-shadow: 0px 0px 3px 3px;
 }
-#about>ul.text-left {
-	padding-left: 20px;
+#about ul.text-left {
+	padding-left: 15px;
 	margin: 0px auto;
 }
 #about li {
@@ -126,14 +122,11 @@ img[alt="myself"] {
 	background: rgba(20, 25, 45, 0.5);
 }
 #portfolio img {
+	width: 220px;
 	box-shadow: 2px 2px 30px 8px #C79A4B;	
 }
 #portfolio img:hover {
 	box-shadow: 2px 2px 30px 8px #fff;
-}
-#portfolio>ul::-webkit-scrollbar {
-	width: 5px;
-	background: rgba(0, 0,0, 0);
 }
 #portfolio p {
 	text-align: left;
